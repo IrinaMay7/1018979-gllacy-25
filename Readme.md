@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Ирина Майорова](https://up.htmlacademy.ru/htmlcss/25/user/1018979).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela)
 
 ---
 
