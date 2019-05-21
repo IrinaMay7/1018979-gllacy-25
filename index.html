@@ -4,7 +4,37 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <style>
-      body {background-mage:url("img/fon.jpg" )}
+      body {background-image:url("img/fon.jpg" );}
+      .features {background:url("img/wafer.jpg") repeat;
+    border-radius: 15px;
+    /* position: absolute; */
+    left: 29px;
+    top: 1270px;
+    width: 1146px;
+    height: 306px;
+    z-index: 124;
+}
+      .blog-news{background:url("img/Strawberry.jpg");
+    border-radius: 15px;
+    /* position: absolute; */
+    left: 27px;
+    top: 1624px;
+    width: 560px;
+    height: 220px;
+    z-index: 115;
+  }
+.subscribe{ background:url("img/Post-fon.jpg");
+    border-radius: 10px;
+    background-color: rgb(248, 247, 244);
+    /* position: absolute; */
+    left: 619px;
+    top: 1628px;
+    width: 549px;
+    height: 211px;
+    z-index: 105;
+  }
+
+
     </style>
   </head>
   <body>
@@ -42,7 +72,7 @@
   <p> C 10 до 20, ежедневно<p>
   <strong>8 912 450-25-25</strong>
 
-    <article>
+  <article class="features">
       <h1>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого
         cобственного производства на развес</h1>
         <ul class="features-list">
@@ -72,8 +102,7 @@
     </section>
 
     <section class="subscribe">
-      <h2>Новое в нашем блоге</h2>
-      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
+        <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
         Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)  </p>
         <input type="e-mail" value="Электронная почта">
         <button>Отправить</button>
@@ -84,10 +113,10 @@
 
     <div class="footer-social">
       <Ul>
-        <li><a class="social-button" href="#"> <img src="img/twitter.svg"></a></li>
-        <li><a class="social-button" href="#"> <img src="img/instagram.svg"></a></li>
-        <li><a class="social-button" href="#"> <img src="img/fb.svg"></a></li>
-        <li><a class="social-button" href="#"> <img src="img/vk.svg"></a></li>
+        <li><a class="social-button" href="#" aria-label="Вход в Твиттер"> <img src="img/twitter.svg"></a></li>
+        <li><a class="social-button" href="#" aria-label="Вход в Инстаграм"> <img src="img/instagram.svg"></a></li>
+        <li><a class="social-button" href="#" aria-label="Вход в Фейсбук"> <img src="img/fb.svg"></a></li>
+        <li><a class="social-button" href="#" aria-label="Вход в контакте"> <img src="img/vk.svg"></a></li>
       </ul>
     </div>
     <div>
