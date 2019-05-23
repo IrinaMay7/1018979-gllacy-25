@@ -1,0 +1,29 @@
+body {background-image:url("img/fon.jpg" );}
+.features {background:url("img/wafer.jpg") repeat;
+border-radius: 15px;
+/* position: absolute; */
+left: 29px;
+top: 1270px;
+width: 1146px;
+height: 306px;
+z-index: 124;
+}
+.blog-news{background:url("img/Strawberry.jpg");
+border-radius: 15px;
+/* position: absolute; */
+left: 27px;
+top: 1624px;
+width: 560px;
+height: 220px;
+z-index: 115;
+}
+.subscribe{ background:url("img/Post-fon.jpg");
+border-radius: 10px;
+background-color: rgb(248, 247, 244);
+/* position: absolute; */
+left: 619px;
+top: 1628px;
+width: 549px;
+height: 211px;
+z-index: 105;
+}
